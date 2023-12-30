@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>www.Doublefruittswift.com</title>
+<style>
+    /* Reset default margin and padding */
+body, h1, h2, ul, p { 
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    margin: 0;
+  }
+  
+  /* Set max-width to adjust to different screen sizes */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .bod{background-image: url(business3.jpg); background-size: cover;}
+  /* Navigation styles */
+  nav { padding: 5px;
+    background-color: #143339;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #022228; color: rgb(143, 228, 228);
+  }
+  
+  /* Content styles */
+  .content { color: #fff;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+  
+  /* Colorful sections */
+  #home { 
+    background-color: #27735c;
+  }
+  
+  #about {color: #022228;
+    background-color: #99ff99;
+  }
+  
+  #samplegallery { color: #022228;
+    background-color: #9999ff;
+  }
+  
+  #contact { color: #022228;
+    background-color: #ffff99;
+  }
+  footer {
+    background-color: #143339;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  img{ width:80px;height: auto; display: inline;}
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    section {
+      padding: 10px;
+    }
+  }
+</style>
+</head>
+<body class="bod">
+  <nav>
+    <ul>
+      <li><a href="webpage.html">Home</a></li>
+      <li><a href="aboutme.html">About</a></li>
+      <li><a href="sampleg.html">Sample gallery</a></li>
+      <li><a href="contactme.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="content">
+    <section id="home">
+        <img src="dbflogo.png">
+      <h1>Welcome to Doublefruitt swift</h1>
+      <p>Doublefruitt Swift  is multi-skilled digital company that renders the following
+        services:
+        <ul class="uhover" >
+            <li id="liaside"><a>Data analaysis/visualization</a></li>
+            <li id="liaside"><a>Web design/development</a></li>
+            <li id="liaside"><a>Graphics/logo Designs</a></li>
+            <li id="liaside"><a>Photography services</a></li>
+        </ul>
+      </p>
+    </section>
+    
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm excited to tell you about myself!</p>
+      <p>Click on about me navigation!</p>
+    </section>
+    
+    <section id="samplegallery">
+      <h2>Samplegallery</h2>
+      <p>Click on samplegallery navigation!</p>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Click on contact navigation!</p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2023 Doublefruitt personal Webpage</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>www.Doublefruittswift.com</title>
+<style>
+    /* Reset default margin and padding */
+body, h1, h2, ul, p { 
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    margin: 0;
+  }
+  
+  /* Set max-width to adjust to different screen sizes */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .bod{background-image: url(business3.jpg); background-size: cover;}
+  /* Navigation styles */
+  nav { padding: 5px;
+    background-color: #143339;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #022228; color: rgb(143, 228, 228);
+  }
+  
+  /* Content styles */
+  .content { color: #fff;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+  
+  /* Colorful sections */
+  #home { 
+    background-color: #7ba8b1;
+  }
+  
+  #about {color: #022228;
+    background-color: #99ff99;
+  }
+  
+  #samplegallery { color: #022228;
+    background-color: #9999ff;
+  }
+  
+  #contact { color: #022228;
+    background-color: #ffff99;
+  }
+  footer {
+    background-color: #143339;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  img{ width: 80px; height: auto; display: inline;}
+  /* Hide all images by default */
+.mySlides fade{
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Fade-in animation */
+.fade {
+  animation: fadeEffect 3s ease-in-out infinite;
+}
+
+@keyframes fadeEffect {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    section {
+      padding: 10px;
+    }
+  }
+</style>
+</head>
+<body class="bod">
+  <nav>
+    <ul>
+      <li><a href="#samplegallery">Sample gallery</a></li>
+    </ul>
+  </nav>
+      <br><br>
+    <section id="samplegallery">
+      <h2>Graphics Samplegallery</h2>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="grap1.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+          <img src="abbashouse.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+          <img src="graph3.png" style="width:100%">
+          <div class="mySlides fade">
+            <img src="logo1.png" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="logo3.png" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="logo4.png" style="width:100%">
+            <div class="mySlides fade">
+                <img src="burg.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="BURG2.jpg" style="width:100%">
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </div>
+  <footer>
+    <p>&copy; 2023 Doublefruitt personal Webpage</p>
+  </footer>
+
+</body>
+</html>
